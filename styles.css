@@ -1079,7 +1079,44 @@ section {
     }
 
     .why-us-wrapper {
-        padding: 30px;
+        padding: 20px;
+    }
+
+    .why-us-wrapper h2 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .why-description {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    .why-list {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .why-list li {
+        font-size: 0.95rem;
+        gap: 10px;
+    }
+
+    .why-list li i {
+        font-size: 1.1rem;
+    }
+
+    .why-list li strong {
+        margin-bottom: 4px;
+    }
+
+    .pricing-note {
+        margin-top: 20px;
+    }
+
+    .note-text {
+        font-size: 0.85rem;
     }
 }
 
