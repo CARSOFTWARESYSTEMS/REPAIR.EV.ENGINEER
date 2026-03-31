@@ -98,7 +98,7 @@ section {
 }
 
 .text-logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     /* Bold 'I' */
     color: var(--white);
@@ -192,7 +192,7 @@ section {
 }
 
 .hero-content h1 {
-    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-size: clamp(2.8rem, 8vw, 3.8rem);
     line-height: 1.1;
     margin-bottom: 20px;
     font-weight: 800;
@@ -570,17 +570,36 @@ section {
     margin-top: 40px;
 }
 
+.why-description {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .why-list li {
     display: flex;
     align-items: flex-start;
     gap: 15px;
     font-size: 1.1rem;
+    color: var(--text-muted);
 }
 
 .why-list li i {
     color: var(--success);
     font-size: 1.4rem;
     margin-top: 3px;
+}
+
+.why-list li strong {
+    color: var(--white);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.why-list li p {
+    margin: 0;
+    color: var(--text-muted);
 }
 
 .pricing-note {
